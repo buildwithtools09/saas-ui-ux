@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrainWave - Smart Note-Taking App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Quicksand:wght@400;600;700&family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BrainWave</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#editor">Editor</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+            </ul>
+            <button class="cta-button">Try BrainWave Now</button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <h1>Take Notes. Stay Organized. Think Smarter.</h1>
+                <p>A minimal yet smart note app built for creators, students, and thinkers.</p>
+                <div class="hero-cta-buttons">
+                    <button class="cta-button primary">Start Writing</button>
+                    <button class="cta-button secondary">Try Demo</button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="note-editor-window">
+                    <div class="editor-header">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                    </div>
+                    <div class="editor-content">
+                        <p class="typing-text"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Features Section -->
+        <section id="features" class="features-section">
+            <h2>Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="icon">📝</div>
+                    <h3>Rich-text formatting</h3>
+                    <p>(bold, italics)</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🧠</div>
+                    <h3>Smart suggestions</h3>
+                    <p>(fake AI)</p>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">🏷️</div>
+                    <h3>Tag-based filtering</h3>
+                </div>
+                <div class="feature-card">
+                    <div class="icon">📁</div>
+                    <h3>Folder organization</h3>
+                    <p>(static sidebar)</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Editor Preview Section -->
+        <section id="editor" class="editor-preview-section">
+            <h2>Editor Preview</h2>
+            <div class="editor-container">
+                <div class="sidebar">
+                    <h3>Notebooks</h3>
+                    <ul>
+                        <li><a href="#">Personal</a></li>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">Ideas</a></li>
+                    </ul>
+                    <h3>Tags</h3>
+                    <ul>
+                        <li><a href="#">#productivity</a></li>
+                        <li><a href="#">#learning</a></li>
+                        <li><a href="#">#brainstorm</a></li>
+                    </ul>
+                    <button class="add-note-button">+ Add New Note</button>
+                </div>
+                <div class="main-editor-area">
+                    <input type="text" class="note-title-input" placeholder="Note Title">
+                    <textarea class="rich-editor-textarea" placeholder="Start writing..."></textarea>
+                    <div class="fake-suggestion-box">
+                        <p>You wrote about productivity. Want to set a reminder?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="how-it-works-section">
+            <h2>How It Works</h2>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="icon">1️⃣</div>
+                    <h3>Click "New Note"</h3>
+                    <p>Start your creative process with a fresh canvas.</p>
+                </div>
+                <div class="step-card">
+                    <div class="icon">✍️</div>
+                    <h3>Start writing with formatting tools</h3>
+                    <p>Express yourself with rich-text options.</p>
+                </div>
+                <div class="step-card">
+                    <div class="icon">🗂️</div>
+                    <h3>Organize by tags and folders</h3>
+                    <p>Keep your thoughts neat and accessible.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section (Optional) -->
+        <section id="testimonials" class="testimonials-section">
+            <h2>What Our Users Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="avatar">JD</div>
+                    <p class="quote">“BrainWave makes it fun to take daily notes.”</p>
+                    <p class="author">John Doe, Student, DU</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="avatar">AS</div>
+                    <p class="quote">“A truly intuitive and smart note-taking experience.”</p>
+                    <p class="author">Alice Smith, Creator</p>
+                </div>
+                <div class="testimonial-card">
+                    <div class="avatar">BM</div>
+                    <p class="quote">“Keeps my thoughts organized and boosts my productivity.”</p>
+                    <p class="author">Bob Miller, Thinker</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final CTA Section -->
+        <section id="final-cta" class="final-cta-section">
+            <h2>Get Smarter with Every Note</h2>
+            <button class="cta-button primary">Try BrainWave Now</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Terms</a>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="linkedin-icon.svg" alt="LinkedIn"></a>
+            <a href="#"><img src="twitter-icon.svg" alt="Twitter"></a>
+            <a href="#"><img src="github-icon.svg" alt="GitHub"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
